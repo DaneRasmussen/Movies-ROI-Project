@@ -1,0 +1,14 @@
+https://api.themoviedb.org/3/search/movie?api_key=<KEY>&query=Hereditary
+	This one looks for movies that have "Hereditary" anywhere within their JSON package
+
+GET https://api.themoviedb.org/3/movie/550?api_key=<YOUR_API_KEY>
+	This one will get the details for a movie given an id
+	Notice the omission of the search option and the query=<query> portion
+
+GET https://api.themoviedb.org/3/movie/popular?api_key=<YOUR_API_KEY>
+	Get popular movies
+	
+	
+	
+	Model I want to fit
+Box-Office Earnings = B0 + B1*Budget + B2*Runtime + B3*average_rating + B4*genre + e
